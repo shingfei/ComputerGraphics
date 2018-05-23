@@ -37,5 +37,5 @@ def rasterline(x1,y1,x2,y2):
 		for y3 in range(y1, y2+1):
 			grid.addPoint(abs(round(alpha*(y3-y1))+xDifference),y3)
 		
-rasterline(1,2,5,5)
+rasterline(10,2,4,5)
 grid.draw()
